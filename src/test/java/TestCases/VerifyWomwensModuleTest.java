@@ -30,6 +30,11 @@ public class VerifyWomwensModuleTest extends BaseClass{
 	
 	@Test
 	public void Tc_Women_005Test() throws Throwable {
-		System.out.println("Test case 2");
+		System.out.println("Test case 3");
+	}
+	
+	@Test
+	public void Tc_Women_006Test() throws Throwable {
+		System.out.println("Test case 4");
 	}
 }
