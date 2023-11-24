@@ -11,6 +11,7 @@ import PomClasses.CartPageTest;
 import PomClasses.HomePageAfterLoginTest;
 import PomClasses.Womens;
 import Utilities.BaseClass;
+import Utilities.JavaScriptUtilities;
 
 
 @Listeners(Utilities.ListnersImplementation.class)
@@ -20,7 +21,12 @@ public class VerifyWomwensModuleTest extends BaseClass{
 	public void Tc_Women_003Test() throws Throwable {
 		
 		System.out.println("Test case 1");
+		
+		 JavaScriptUtilities JS = new JavaScriptUtilities();
+		 
 	}
+	
+	
 	
 	@Test
 	public void Tc_Women_004Test() throws Throwable {
