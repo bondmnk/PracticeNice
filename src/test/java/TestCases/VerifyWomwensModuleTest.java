@@ -1,6 +1,7 @@
 package TestCases;
 
 
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -11,6 +12,7 @@ import PomClasses.CartPageTest;
 import PomClasses.HomePageAfterLoginTest;
 import PomClasses.Womens;
 import Utilities.BaseClass;
+import Utilities.JavaScriptUtilities;
 
 
 @Listeners(Utilities.ListnersImplementation.class)
@@ -20,6 +22,8 @@ public class VerifyWomwensModuleTest extends BaseClass{
 	public void Tc_Women_003Test() throws Throwable {
 		
 		System.out.println("Test case 1");
+		
+	
 	}
 	
 	@Test
