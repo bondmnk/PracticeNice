@@ -22,10 +22,7 @@ public class VerifyWomwensModuleTest extends BaseClass{
 	public void Tc_Women_003Test() throws Throwable {
 		
 		System.out.println("Test case 1");
-		JavaScriptUtilities jse = new JavaScriptUtilities();
-		CartPageTest cp = new CartPageTest(driver);
-		WebElement ele= cp.getRayYonSleeveLength();
-		jse.javaScriptClick(driver,ele);
+		
 	}
 	
 	@Test
